@@ -1,0 +1,20 @@
+{
+  "name": "jwin",
+  "version": "0.1.0",
+  "description": "JustWhatINeed is a JavaScript library, which adds some usefull functions that are often used by me",
+  "main": "jwin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanwimmer128/jwin.git"
+  },
+  "keywords": [
+    "jwin",
+    "justwhatineed"
+  ],
+  "author": "Stefan Wimmer <stefanwimmer128@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanwimmer128/jwin/issues"
+  },
+  "homepage": "https://github.com/stefanwimmer128/jwin#readme"
+}
