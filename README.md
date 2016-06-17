@@ -10,4 +10,4 @@ Installing this module is easy, just type:
 
 for example:
 
-`npm i -S jwin@0.1.0`
+`npm i -S jwin@1.0.0`
