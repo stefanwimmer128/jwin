@@ -6,15 +6,21 @@ JustWhatINeed is a JavaScript library, which adds some useful functions that are
 
 Installing this module is easy, just type:
 
-`npm i [-S|--save] jwin[@[version]]`
+``` bash
+npm i [-S|--save] jwin[@[version]]
+```
 
 for example:
 
-`npm i -S jwin@1.1.0`
+``` bash
+npm i -S jwin@1.1.0
+```
 
 ## How to include?
 
-`const $ = require("jwin");`
+``` javascript
+const $ = require("jwin");
+```
 
 ## Examples of what you can do
 
