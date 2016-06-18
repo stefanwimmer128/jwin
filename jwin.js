@@ -8,5 +8,6 @@ $.version = require("./package.json").version;
 
 $ = require("./lib/exception")($);
 $ = require("./lib/group")($);
+$ = require("./lib/map")($);
 
 module.exports = $;
