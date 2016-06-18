@@ -4,6 +4,8 @@
 
 let $ = {};
 
+$.version = require("./package.json").version;
+
 $ = require("./lib/exception")($);
 $ = require("./lib/group")($);
 
