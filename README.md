@@ -33,17 +33,17 @@ myGroup.add(3); // Ads 3 to elements [1, 2, 3]
 myGroup.add(4); // Ads 4 to elements [1, 2, 3, 4]
 
 const add = [5, 6];
-const addItr = new $.Iterator(add); // Creates an Iterator based on elements [5, 6]
+const itr = new $.Iterator(add); // Creates an Iterator based on elements [5, 6]
 while (itr.hasNext()) // Cycle as long there are values in the Iterator
 {
-    myGroup.add(itr.next()); // Returns current element and cycle through the elements
+    myGroup.add(itr.next()); // Adds current element to myGroup and cycle through the elements
 }
 
-const mapedGroup = myGroup.map((num) => num * 2); // See Array.prototype.map
+const mapedGroup = myGroup.map((num) => num * 2); // See Array.prototype.map: [2, 4, 6, 8, 10, 12]
 
-const filteredGroup = mapedGroup.filter((num) => num > 6); // See Array.prototype.filter
+const filteredGroup = mapedGroup.filter((num) => num > 6); // See Array.prototype.filter: [8, 10, 12]
 
-const sum = mapedGroup.reduce((sum, num) => sum + num); // See Array.protorype.reduce
+const sum = filteredGroup.reduce((sum, num) => sum + num, 0); // See Array.protorype.reduce: 30
 
-console.log(sum); // Logs out sum of all numbers in array: [
+console.log(sum); // 30
 ```
